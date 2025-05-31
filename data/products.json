@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Perfume",
+    "price": 89.99,
+    "category": "Beauty",
+    "description": "Premium fragrance with long-lasting scent",
+    "image": "/images/perfume.webp"
+  },
+  {
+    "id": 2,
+    "name": "Classic Hand Watch",
+    "price": 199.99,
+    "category": "Accessories",
+    "description": "Elegant timepiece for everyday wear",
+    "image": "/images/handwatch.webp"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Headset",
+    "price": 159.99,
+    "category": "Electronics",
+    "description": "High-quality wireless headset with noise cancellation",
+    "image": "/images/headset.webp"
+  },
+  {
+    "id": 4,
+    "name": "Red Sports Sneakers",
+    "price": 129.99,
+    "category": "Footwear",
+    "description": "Comfortable sports sneakers for active lifestyle",
+    "image": "/images/redsneakers.webp"
+  },
+  {
+    "id": 5,
+    "name": "Water Bottle",
+    "price": 24.99,
+    "category": "Sports",
+    "description": "Insulated water bottle to keep drinks cold",
+    "image": "/images/waterholder.webp"
+  },
+  {
+    "id": 6,
+    "name": "Black Sunglasses",
+    "price": 79.99,
+    "category": "Accessories",
+    "description": "Stylish black sunglasses with UV protection",
+    "image": "/images/blackglasses.webp"
+  },
+  {
+    "id": 7,
+    "name": "Skin Care Set",
+    "price": 49.99,
+    "category": "Beauty",
+    "description": "Complete skincare routine for healthy skin",
+    "image": "/images/shincare.webp"
+  },
+  {
+    "id": 8,
+    "name": "Red Lipstick",
+    "price": 19.99,
+    "category": "Beauty",
+    "description": "Bold red lipstick for a glamorous look",
+    "image": "/images/redlipstick.webp"
+  },
+  {
+    "id": 9,
+    "name": "Travel Backpack",
+    "price": 89.99,
+    "category": "Travel",
+    "description": "Durable backpack perfect for travel and hiking",
+    "image": "/images/backback.webp"
+  },
+  {
+    "id": 10,
+    "name": "Black T-Shirt",
+    "price": 29.99,
+    "category": "Clothing",
+    "description": "Comfortable black t-shirt made from premium cotton",
+    "image": "/images/blacktshirt.webp"
+  },
+  {
+    "id": 11,
+    "name": "Green T-Shirt",
+    "price": 29.99,
+    "category": "Clothing",
+    "description": "Stylish green t-shirt for casual wear",
+    "image": "/images/greentshirt.webp"
+  },
+  {
+    "id": 12,
+    "name": "Blue T-Shirt",
+    "price": 29.99,
+    "category": "Clothing",
+    "description": "Classic blue t-shirt with modern fit",
+    "image": "/images/bluetshirt.webp"
+  }
+]
