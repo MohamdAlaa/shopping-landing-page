@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Premium Store - Your Shopping Destination",
   description: "Discover amazing products for your lifestyle",
+  icons: {
+    icon:  '/icon.jpg'
+  },
 };
 
 export default function RootLayout({

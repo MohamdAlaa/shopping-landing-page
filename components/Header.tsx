@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import CartButton from './CartButton';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,8 +22,9 @@ export default function Header() {
         {/* Navigation Bar */}
         <nav className="flex items-center justify-between py-4">
           {/* Logo/Brand */}
-          <Link href="/" className="text-xl font-bold hover:text-blue-200 transition-colors duration-200">
-            Premium Store
+          <Link href="/" className="text-xl font-bold hover:text-blue-200 transition-colors duration-200 flex items-center">
+          <Image src="/icon.jpg" alt="Premium Store" width={32} height={32} className='rounded-full'/>
+          <p className='ml-2'>Premium Store</p>
           </Link>
           
           {/* Desktop Navigation Links */}
