@@ -3,43 +3,7 @@ import { Product, CartItem } from '@/types';
 
 export function useCart() {
   const [items, setItems] = useState<CartItem[]>([]);
-  const [isClient, setIsClient] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-
-  // Set client flag after component mounts
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  // Load cart from localStorage only on client
-  useEffect(() => {
-    if (isClient) {
-      // Add a small delay to ensure smooth loading
-      const loadCart = async () => {
-        try {
-          const savedCart = localStorage.getItem('shopping-cart');
-          if (savedCart) {
-            setItems(JSON.parse(savedCart));
-          }
-        } catch (error) {
-          console.error('Error loading cart from localStorage:', error);
-        }
-        
-        // Ensure minimum loading time to prevent flash
-        await new Promise(resolve => setTimeout(resolve, 100));
-        setIsLoading(false);
-      };
-      
-      loadCart();
-    }
-  }, [isClient]);
-
-  // Save cart to localStorage whenever items change (only on client)
-  useEffect(() => {
-    if (isClient && !isLoading) {
-      localStorage.setItem('shopping-cart', JSON.stringify(items));
-    }
-  }, [items, isClient, isLoading]);
+  const [isLoading, setIsLoading] = useState(false); 
 
   const addToCart = (product: Product) => {
     setItems(prev => {
